@@ -1,0 +1,110 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#swiper-wrapper{
+  padding-top: 20px;
+  padding-bottom: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 4px solid black;
+}
+#swip1{
+  width: 1000px;
+}
+.swiper-button-prev{
+  opacity: 0;
+  transition: 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.swiper-button-prev::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../public/next.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+
+.swiper-button-next{
+  opacity: 0;
+  transition: 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.swiper-button-next::after{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../public/next.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.swiper:hover .swiper-button-prev{
+  opacity: 1;
+}
+.swiper:hover .swiper-button-next{
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #da002b;
+}
+
+#swip2 {
+  width: 300px;
+  height: 344px;
+}
+#swip2 Swiper{
+
+
+}
+.dfc{
+  object-fit: contain;
+}

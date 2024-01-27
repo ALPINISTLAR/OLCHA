@@ -19,6 +19,7 @@ function Navbar() {
       );
     }
     return (
+      <>
       <div className="navbar">
       <header className="container">
       <NavLink className="active" to={"/"}>
@@ -34,7 +35,6 @@ function Navbar() {
         line1.classList.toggle('line1-active');
         line2.classList.toggle('line2-active');
         line3.classList.toggle('line3-active');
-        itemKatalog.classList.toggle('katalog-item-active')
       }}
       >
       <div className="bars">
@@ -74,8 +74,8 @@ function Navbar() {
       </div>
       </header>
 
-      <div className="katalog-item"></div>
       </div>
+</>
       );
     }
 
