@@ -43,9 +43,6 @@ export default function Swip() {
             <img src="https://olcha.uz/image/original/sliders/ru/c1lBPgoshZuCwRyVfkWKxh3J03EzknQdOqNW9Hx1JGAmPsNqydGPCoQnWD2l.png" alt="Slide 5" />
           </SwiperSlide>
           <SwiperSlide>
-            Slide 6
-          </SwiperSlide>
-          <SwiperSlide>
             <img src="https://olcha.uz/image/original/sliders/ru/JwFP8H3qk55szQrT7xiLJzB71g6gAChEtieJYv4aFEJ3udzLC1mAKRFFInww.png" alt="Slide 7" />
           </SwiperSlide>
           <SwiperSlide>
