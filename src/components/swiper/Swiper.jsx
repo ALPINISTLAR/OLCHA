@@ -66,9 +66,9 @@ export default function Swip() {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img className='dfc' src="../../../public/3.png"/></SwiperSlide>
-        <SwiperSlide><img className='dfc' src="../../../public/2.png"/></SwiperSlide>
-        <SwiperSlide><img className='dfc' src="../../../public/1.png"/></SwiperSlide>
+        <SwiperSlide><img className='dfc' src="/3.png"/></SwiperSlide>
+        <SwiperSlide><img className='dfc' src="/2.png"/></SwiperSlide>
+        <SwiperSlide><img className='dfc' src="/1.png"/></SwiperSlide>
       </Swiper>
 </div>
 
